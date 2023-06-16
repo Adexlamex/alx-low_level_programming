@@ -1,4 +1,7 @@
 #include <stdio.h>
+/*
+ *main - Prints "Progrmming.."
+ */
 
 int main(void)
 {
