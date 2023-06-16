@@ -12,9 +12,8 @@ int main(void)
 
 	for (al = 'a'; al <= 'z'; al++)
 	{
-		if (al == 'q' || al == 'e')
+		if (al != 'q' || al != 'e')
 		{
-			continue;
 			putchar(al);
 		}
 
