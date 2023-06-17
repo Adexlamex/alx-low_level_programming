@@ -8,13 +8,18 @@
 
 int main(void)
 {
-	char num;
+	int num;
+	char al;
 
-	for (num = 0; num <= 'f'; num++)
+	for (num = 0; num < 10; num++)
 	{
-		putchar(num + '0x');
+		putchar((num%10) + '0');
+	}
+	for (al = 'a'; al <= 'f'; al++)
+	{
+		putchar(al);
 	}
 
-	putchar('\n);
+	putchar('\n');
 	return (0);
 }
