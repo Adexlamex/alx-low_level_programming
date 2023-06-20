@@ -6,7 +6,12 @@
  * Return: always 0.
 */
 
-void print_alphabet(void)//print_alphabet is a function 
+void print_alphabet(void)
+	
+/**
+ * print_alphabet is a function.
+*/
+
 {
 	char letter;
 
