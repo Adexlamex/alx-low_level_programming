@@ -3,7 +3,7 @@
 /**
  * _islower - prints the characteristic
  *	of the letter.
- * c - an integer declared.
+ * @c: an integer declared.
  * Return: always 0.
 */
 
