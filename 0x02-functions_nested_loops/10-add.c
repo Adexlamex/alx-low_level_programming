@@ -2,6 +2,8 @@
 
 /**
  * add - adds two integers.
+ * @a: first integer.
+ * @b: second integer.
  * Return: always return 0.
 */
 
