@@ -1,3 +1,8 @@
+/*
+ * File: 0-isupper.c
+ * Auth: Olamide Adeosun
+ */
+
 #include "main.h"
 
 /**
@@ -6,7 +11,7 @@
  * @c: the integer written.
  *
  * Return: always 0.
-*/
+ */
 
 int _isupper(int c)
 {
