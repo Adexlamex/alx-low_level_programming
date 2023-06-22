@@ -3,6 +3,7 @@
 /**
  * _isupper - checks for uppercase
  * @c: the integer written.
+ * Return: always 0.
 */
 
 int _isupper(int c)
