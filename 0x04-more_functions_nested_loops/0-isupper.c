@@ -4,6 +4,7 @@
  * _isupper - checks for uppercase
  *	letters in the input.
  * @c: the integer written.
+ *
  * Return: always 0.
 */
 
