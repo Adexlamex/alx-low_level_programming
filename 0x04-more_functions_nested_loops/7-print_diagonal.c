@@ -4,6 +4,7 @@
  * print_diagonal - prints diagonally.
  * @n - number of times a character
  *	is printed.
+ * Return: always 0.
  */
 
 void print_diagonal(int n)
