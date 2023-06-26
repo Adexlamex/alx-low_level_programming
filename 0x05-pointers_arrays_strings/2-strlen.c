@@ -2,7 +2,7 @@
 
 /**
  * _strlen - prints the length of strings.
- * @s is the pointed string.
+ * @s: is the pointed string.
  *
  * Return: always nothing
  */
