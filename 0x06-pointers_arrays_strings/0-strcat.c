@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * *_strcat - concatenates two strings.
- * *dest: pointed to dest variable.
- * *src: pointed to src variable.
+ * _strcat - concatenates two strings.
+ * @dest: pointed to dest variable.
+ * @src: pointed to src variable.
  *
  * Return: always 0.
  */
