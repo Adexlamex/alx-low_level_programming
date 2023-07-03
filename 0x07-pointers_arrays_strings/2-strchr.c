@@ -18,6 +18,7 @@ char *_strchr(char *s, char c)
 	while(1)
 	{
 		r = *s++;
+
 		if (r == c)
 		{
 			return (s - 1);
