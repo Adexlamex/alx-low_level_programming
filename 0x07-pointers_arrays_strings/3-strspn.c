@@ -24,7 +24,9 @@ unsigned int _strspn(char *s, char *accept)
 			if (s[r] == accept[e])
 			{
 				x++;
+
 				y = 1;
+
 			}
 		}
 		if (y == 0)
