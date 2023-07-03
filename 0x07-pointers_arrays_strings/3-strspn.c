@@ -11,7 +11,7 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int r, e, x, y;
+	int r, e, x, y;
 
 	x = 0;
 
@@ -34,6 +34,5 @@ unsigned int _strspn(char *s, char *accept)
 			return (x);
 		}
 	}
-
 	return (0);
 }
