@@ -4,16 +4,17 @@
  * _puts_recursion - prints a string.
  * @s: the string to print.
  *
- * Return: always 0.
+ * Return: nothing.
  */
 
 void _puts_recursion(char *s)
 {
-	if (*s == '\0')
+	int r;
+
+	for (r = 0; s[r] != '\0'; r++)
 	{
-		_putchar('\n');
-		return;
+		_putchar(s[r]);
 	}
-	_putchar(*s);
-	_puts_recursion(s + 1);
+
+	_putchar('\n');
 }
