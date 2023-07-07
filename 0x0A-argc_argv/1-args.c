@@ -3,12 +3,12 @@
 /**
  * main - program that prints the number of arguments.
  * @argc: argument count.
- * @argcv: argument vector.
+ * @argv: argument vector.
  *
  * Return: always 0.
  */
 
-int main(int argc, char **argv[])
+int main(int argc, char **argv)
 {
 	if (argc)
 	{
