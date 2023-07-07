@@ -5,7 +5,7 @@
  * @argc: argument count.
  * @argcv: argument vector.
  *
- * Return: number of arguments.
+ * Return: always 0.
  */
 
 int main(int argc, char **argv)
