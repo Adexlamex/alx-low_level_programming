@@ -9,7 +9,7 @@
  * Return: always 0 on success and 1 if any error.
  */
 
-int main (int argc, char *argv)
+int main (int argc, char **argv)
 {
 	int result, num1, num2;
 
@@ -20,11 +20,11 @@ int main (int argc, char *argv)
 	}
 	else
 	{
-	num1 = atoi(argv[1]);
-	num2 = atoi(argv[2]);
-	result = num1 * num2;
+		num1 = atoi(argv[1]);
+		num2 = atoi(argv[2]);
+		result = num1 * num2;
 
-	printf("%d\n", result);
+		printf("%d\n", result);
 	}
 	return (0);
 }
